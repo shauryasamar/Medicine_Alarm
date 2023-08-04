@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".AddActivity">
+
+
+    <EditText
+        android:id="@+id/Med_name"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="medicineName"
+        android:ems="10"
+        android:hint="@string/label_medicine_name"
+        android:importantForAutofill="yes"
+        android:inputType="text"
+        android:textColor="#FFFBFB"
+        android:textColorHint="#AAA8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="Date"
+        android:ems="10"
+        android:hint="@string/date"
+        android:importantForAutofill="yes"
+        android:inputType="date"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#AAA8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="medicineName"
+        android:ems="10"
+        android:hint="@string/time"
+        android:importantForAutofill="yes"
+        android:inputType="text"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#AAA8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <Button
+        android:id="@+id/set_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/theme_color"
+        android:text="@string/Alarm"
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

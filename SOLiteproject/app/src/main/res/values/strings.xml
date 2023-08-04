@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SOLite project</string><string name="one">1</string>
+    <string name="label_medicine_name">Medicine Name</string>
+    <string name="med_alrm">Medicine Alarm</string>
+    <string name="time">Time(HH:MM) </string>
+    <string name="date">Date(DD/MM/YYYY) </string>
+    <string name="Alarm">SET ALARM </string>
+    <string name="update">UPDATE ALARM </string>
+    <string name="delete">DELETE ALARM </string>
+    <string name="label_medicine_name_description">Med_name</string>
+
+
+</resources>

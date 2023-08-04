@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".AddActivity">
+
+
+    <TextView
+        android:id="@+id/Med_name2"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="medicineName"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/label_medicine_name"
+        android:textAllCaps="true"
+        android:textColor="#FFFBFB"
+        android:textColorHint="#AAA8A8"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="Date"
+        android:textSize="30dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/date"
+        android:importantForAutofill="yes"
+        android:inputType="date"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#AAA8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="301dp"
+        android:layout_height="73dp"
+        android:autofillHints="medicineName"
+        android:editable="false"
+
+        android:ems="10"
+        android:hint="@string/time"
+        android:importantForAutofill="yes"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#AAA8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="303dp"
+        android:layout_height="60dp"
+        android:background="#70A136"
+        android:backgroundTint="#79AE3C"
+        android:shadowColor="#8BC34A "
+        android:text="@string/update"
+        android:visibility="invisible"
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:strokeColor="#8BC34A" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/theme_color"
+        android:shadowColor="#8BC34A "
+        android:text="@string/delete"
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
